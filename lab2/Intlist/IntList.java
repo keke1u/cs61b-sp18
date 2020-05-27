@@ -109,9 +109,10 @@ public class IntList {
         }
         IntList res = new IntList(A.first, null);
         IntList ptr = res;
-        while (A.rest != null) {
-            ptr.rest = new IntList(A.rest.first, null);
-            A = A.rest;
+        IntList currentA = A.rest;
+        while (currentA != null) {
+            ptr.rest = new IntList(currentA.first, null);
+            currentA = currentA.rest;
             ptr = ptr.rest;
         }
         ptr.rest = B;
