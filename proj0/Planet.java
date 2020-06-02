@@ -61,7 +61,7 @@ public class Planet {
      * Describe the force exerted on this planet by the given planet
      */
     public double calcForceExertedBy(Planet a) {
-        final static double G = 6.67e-11; // constant
+        double G = 6.67e-11; // constant
         double F = (G * this.mass * a.mass) / (calcDistance(a) * calcDistance(a));
         return F;
     }
