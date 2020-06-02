@@ -103,12 +103,12 @@ public class NBody {
         /**
          * print out the final state of the universe in the same format as the input
          */
-        StdOut.printf("%d\n", planets.length);
-        StdOut.printf("%.2e\n", radius);
-        for (int i = 0; i < planets.length; i++) {
+        StdOut.printf("%d\n", Planets.length);
+        StdOut.printf("%.2e\n", uniRadius);
+        for (int i = 0; i < Planets.length; i++) {
             StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
-                    planets[i].xxPos, planets[i].yyPos, planets[i].xxVel,
-                    planets[i].yyVel, planets[i].mass, planets[i].imgFileName);
+                    Planets[i].xxPos, Planets[i].yyPos, Planets[i].xxVel,
+                    Planets[i].yyVel, Planets[i].mass, Planets[i].imgFileName);
         }
     }
 }
