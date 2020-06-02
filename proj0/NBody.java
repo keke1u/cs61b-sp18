@@ -100,6 +100,7 @@ public class NBody {
             StdDraw.show();
             StdDraw.pause(10);
         }
+        
         /**
          * print out the final state of the universe in the same format as the input
          */
@@ -109,6 +110,7 @@ public class NBody {
             StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
                     Planets[i].xxPos, Planets[i].yyPos, Planets[i].xxVel,
                     Planets[i].yyVel, Planets[i].mass, Planets[i].imgFileName);
+
         }
     }
 }
