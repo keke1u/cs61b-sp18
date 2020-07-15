@@ -4,6 +4,20 @@ import org.junit.Test;
 
 public class IntListTest {
 
+    @Test(timeout = 1000)
+    public void testReverse() {
+        IntList onetwothree = IntList.of(1, 2, 3);
+        IntList actual = IntList.reverse(onetwothree);
+        IntList exp = IntList.of(3, 2, 1);
+        assertEquals(exp, actual);
+        assertNotEquals(actual, onetwothree); // test if the Reverse method is destructive
+
+        IntList Empty = IntList.of();
+        IntList actual2 = IntList.reverse(Empty);
+        IntList exp2 = IntList.of();
+        assertEquals(exp2, actual2);
+    }
+
     /**
      * Example test that verifies correctness of the IntList.of static
      * method. The main point of this is to convince you that
