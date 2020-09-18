@@ -15,7 +15,7 @@ public class ArrayDeque<T> {
         items = (T[]) new Object[initialCapacity];
         size = 0;
         capacity = initialCapacity;
-        nextFirst = size - 1;
+        nextFirst = capacity - 1;
         nextLast = 0;
     }
 
