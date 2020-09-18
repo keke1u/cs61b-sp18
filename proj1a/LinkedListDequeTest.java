@@ -22,9 +22,9 @@ public class LinkedListDequeTest {
 	 * The \n means newline. */
 	public static void printTestStatus(boolean passed) {
 		if (passed) {
-			System.out.println("Test passed!\n");
+			System.out.println("Test passed!");
 		} else {
-			System.out.println("Test failed!\n");
+			System.out.println("Test failed!");
 		}
 	}
 

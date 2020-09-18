@@ -80,7 +80,7 @@ public class ArrayDeque<T> {
         int currentLast = oneMinus(nextLast);
         if (currentFirst < currentLast) {
             System.arraycopy(items, currentFirst, newItems, 0, size);
-            nextFirst = capacity - 1;
+            nextFirst = newCapacity - 1;
             nextLast = size;
         } else {
             int firstLength = capacity - currentFirst;
