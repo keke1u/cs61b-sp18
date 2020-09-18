@@ -14,6 +14,7 @@ public class ArrayDeque<T> {
     public ArrayDeque() {
         items = (T[]) new Object[initialCapacity];
         size = 0;
+        capacity = initialCapacity;
         nextFirst = size - 1;
         nextLast = 0;
     }
@@ -82,11 +83,11 @@ public class ArrayDeque<T> {
             nextFirst = capacity - 1;
             nextLast = size;
         } else {
-            int FirstLength = capacity - currentFirst;
-            int LastLength = nextLast;
-            int newCurrentFirst = newCapacity - FirstLength;
-            System.arraycopy(items, currentFirst, newItems, newCurrentFirst, FirstLength);
-            System.arraycopy(items, 0, newItems, 0, LastLength);
+            int firstLength = capacity - currentFirst;
+            int lastLength = nextLast;
+            int newCurrentFirst = newCapacity - firstLength;
+            System.arraycopy(items, currentFirst, newItems, newCurrentFirst, firstLength);
+            System.arraycopy(items, 0, newItems, 0, lastLength);
             nextFirst = oneMinus(newCurrentFirst);
         }
         capacity = newCapacity;
@@ -104,7 +105,7 @@ public class ArrayDeque<T> {
     /** Checks whether the array needs to be contracted, and if so, executes it */
     private void contract() {
         double ratio = (double) size / capacity;
-        if (capacity >= thresholdCapacity && ratio <thresholdRatio) {
+        if (capacity >= thresholdCapacity && ratio < thresholdRatio) {
             int newCapacity = capacity / contractFactor;
             resize(newCapacity);
         }
@@ -128,7 +129,8 @@ public class ArrayDeque<T> {
         expand();
     }
 
-    /** Removes and returns the item at the front of the deque. If no such item exists, returns null */
+    /** Removes and returns the item at the front of the deque.
+     * If no such item exists, returns null */
     public T removeFirst() {
         if (isEmpty()) {
             return null;
@@ -143,7 +145,8 @@ public class ArrayDeque<T> {
         return removed;
     }
 
-    /** Removes and returns the item at the back of the deque. If no such item exists, returns null */
+    /** Removes and returns the item at the back of the deque.
+     * If no such item exists, returns null */
     public T removeLast() {
         if (isEmpty()) {
             return null;
