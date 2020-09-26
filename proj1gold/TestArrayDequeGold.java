@@ -6,7 +6,6 @@ public class TestArrayDequeGold {
     private static String message = "";
     private static int callTimes = 500;
 
-
     private void randomAdd(double r, Integer i,
                            StudentArrayDeque<Integer> test, ArrayDequeSolution<Integer> right) {
         if (r < 0.5) {
