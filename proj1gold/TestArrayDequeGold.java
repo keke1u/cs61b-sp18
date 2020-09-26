@@ -4,7 +4,7 @@ import org.junit.Test;
 public class TestArrayDequeGold {
 
     private static String message = "";
-    private static int callTimes = 50;
+    private static int callTimes = 500;
 
 
     private void randomAdd(double r, Integer i,
