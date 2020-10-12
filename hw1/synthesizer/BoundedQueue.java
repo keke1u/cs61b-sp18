@@ -2,7 +2,7 @@ package synthesizer;
 
 import java.util.Iterator;
 
-public interface BoundedQueue<T> extends Iterable<T>{
+public interface BoundedQueue<T> extends Iterable<T> {
     /* All methods that you declare or define are automatically public and abstract,
      * even if you omit the public keyword
      */
