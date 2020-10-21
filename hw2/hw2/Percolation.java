@@ -48,12 +48,14 @@ public class Percolation {
 
     // open the site (row, col) if it is not open already
     public void open(int row, int col) {
-        if (size == 0 && row == 0 && col == 0) {
+        checkRange(row, col);
+        if (size == 1 && row == 0 && col == 0) {
             grid.union(topVirtual, xyTo1D(0, 0));
             gridAntiBackWash.union(topVirtual, xyTo1D(0, 0));
             grid.union(downVirtual, xyTo1D(0, 0));
+            numOfOpen += 1;
+            gridData[xyTo1D(0, 0)] = true;
         }
-        checkRange(row, col);
         if (!gridData[xyTo1D(row, col)]) {
             gridData[xyTo1D(row, col)] = true;
             numOfOpen += 1;
