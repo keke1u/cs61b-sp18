@@ -17,10 +17,11 @@ public class PercolationStats {
         for (int i = 0; i < T; i += 1) {
             Percolation exp = pf.make(N);
             while (!exp.percolates()) {
-                int position = StdRandom.uniform(N * N);
-                exp.open(position / N, position % N);
+                int position1 = StdRandom.uniform(N);
+                int position2 = StdRandom.uniform(N);
+                exp.open(position1, position2);
             }
-            data[i] = exp.numberOfOpenSites() / (N * N);
+            data[i] = (double) exp.numberOfOpenSites() / (double) (N * N);
         }
     }
 
