@@ -25,10 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea356d52-402f-427d-bdfa-56aaac4977c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hw2/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/InteractivePercolationVisualizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw2/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/Percolation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2/PercolationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/PercolationStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2/PercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/PercolationVisualizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2setup/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2setup/DogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -94,8 +91,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="918" height="264" key="GridCell.Tab.0.bottom" timestamp="1603290706051">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="264" key="GridCell.Tab.0.bottom/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1603290706051" />
+    <state width="918" height="264" key="GridCell.Tab.0.center" timestamp="1603290706048">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="264" key="GridCell.Tab.0.center/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1603290706048" />
+    <state width="918" height="264" key="GridCell.Tab.0.left" timestamp="1603290706046">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="264" key="GridCell.Tab.0.left/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1603290706046" />
+    <state width="918" height="264" key="GridCell.Tab.0.right" timestamp="1603290706049">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="264" key="GridCell.Tab.0.right/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1603290706049" />
     <state x="896" y="93" key="SettingsEditor" timestamp="1603275770926">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

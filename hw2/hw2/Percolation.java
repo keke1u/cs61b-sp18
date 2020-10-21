@@ -18,8 +18,8 @@ public class Percolation {
         }
         grid = new WeightedQuickUnionUF(N * N + 2);
         gridAntiBackWash = new WeightedQuickUnionUF(N * N + 1);
-        topVirtual = N;
-        downVirtual = N + 1;
+        topVirtual = N * N;
+        downVirtual = N * N + 1;
         size = N;
         numOfOpen = 0;
         gridData = new boolean[N * N];
