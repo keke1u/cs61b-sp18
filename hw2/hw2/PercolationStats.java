@@ -15,7 +15,7 @@ public class PercolationStats {
             throw new java.lang.IllegalArgumentException("The args of Stats should be positive!");
         }
         int[] data = new int[T];
-        for (int i = 0; i < N; i += 1) {
+        for (int i = 0; i < T; i += 1) {
             Percolation exp = pf.make(N);
             while (!exp.percolates()) {
                 int position = StdRandom.uniform(N);

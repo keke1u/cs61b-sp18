@@ -26,10 +26,12 @@ public class Percolation {
         for (int i = 0; i < N * N; i += 1) {
             gridData[i] = false;
         }
-        for (int i = 0; i < N; i += 1) {
-            grid.union(topVirtual, xyTo1D(0, i));
-            gridAntiBackWash.union(topVirtual, xyTo1D(0, i));
-            grid.union(downVirtual, xyTo1D(N - 1, i));
+        if (N > 1) {
+            for (int i = 0; i < N; i += 1) {
+                grid.union(topVirtual, xyTo1D(0, i));
+                gridAntiBackWash.union(topVirtual, xyTo1D(0, i));
+                grid.union(downVirtual, xyTo1D(N - 1, i));
+            }
         }
     }
 
@@ -46,6 +48,11 @@ public class Percolation {
 
     // open the site (row, col) if it is not open already
     public void open(int row, int col) {
+        if (size == 0 && row == 0 && col == 0) {
+            grid.union(topVirtual, xyTo1D(0, 0));
+            gridAntiBackWash.union(topVirtual, xyTo1D(0, 0));
+            grid.union(downVirtual, xyTo1D(0, 0));
+        }
         checkRange(row, col);
         if (!gridData[xyTo1D(row, col)]) {
             gridData[xyTo1D(row, col)] = true;
