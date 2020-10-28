@@ -100,7 +100,7 @@ public class BSTMap<K extends Comparable<K>, V> implements Map61B<K, V> {
     //////////////// EVERYTHING BELOW THIS LINE IS OPTIONAL ////////////////
 
     private void keySetHelper(Set<K> keySet, Node p) {
-        if (p.key == null) {
+        if (p == null) {
             return;
         }
         keySet.add(p.key);
