@@ -20,7 +20,8 @@ public class OomageTestUtility {
             int bucketNum = (o.hashCode() & 0x7FFFFFFF) % M;
             if (bucketNumMap.containsKey(bucketNum)) {
                 int bucketNumTimes = bucketNumMap.get(bucketNum);
-                bucketNumMap.put(bucketNum, bucketNumTimes + 1); // the value of existing key will be replaced
+                bucketNumMap.put(bucketNum, bucketNumTimes + 1);
+                // the value of existing key will be replaced
             } else {
                 bucketNumMap.put(bucketNum, 1);
             }
