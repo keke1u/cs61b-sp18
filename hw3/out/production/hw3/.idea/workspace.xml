@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d3ebf8a-d872-4735-8f4a-03e68ec9bb01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hw3/hash/SimpleOomage.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/hash/SimpleOomage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2setup/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2setup/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1juYAj4qK4oi1JvfsKY1h6M0uO9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.TestSimpleOomage">
+    <configuration name="SimpleOomage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.SimpleOomage" />
+      <module name="hw3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw3.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleOomage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.TestSimpleOomage" />
+      <module name="hw3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw3.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestSimpleOomage" />
+        <item itemvalue="Application.SimpleOomage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d3ebf8a-d872-4735-8f4a-03e68ec9bb01" name="Default Changelist" comment="" />
+      <created>1604655301820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604655301820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="918" height="263" key="GridCell.Tab.0.bottom" timestamp="1604655959927">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="263" key="GridCell.Tab.0.bottom/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1604655959927" />
+    <state width="918" height="263" key="GridCell.Tab.0.center" timestamp="1604655959927">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="263" key="GridCell.Tab.0.center/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1604655959927" />
+    <state width="918" height="263" key="GridCell.Tab.0.left" timestamp="1604655959927">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="263" key="GridCell.Tab.0.left/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1604655959927" />
+    <state width="918" height="263" key="GridCell.Tab.0.right" timestamp="1604655959927">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="918" height="263" key="GridCell.Tab.0.right/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1604655959927" />
+    <state x="896" y="92" key="SettingsEditor" timestamp="1604655334268">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="896" y="92" key="SettingsEditor/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1604655334268" />
+  </component>
+</project>
