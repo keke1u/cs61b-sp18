@@ -109,7 +109,7 @@ public class Board implements WorldState {
     /**
      * Manhatten estimate described below
      */
-    public int manhatten() {
+    public int manhattan() {
         int row = -1;
         int col = -1;
         int value = -1;
@@ -135,7 +135,7 @@ public class Board implements WorldState {
      */
     @Override
     public int estimatedDistanceToGoal() {
-        return manhatten();
+        return manhattan();
     }
 
     /**
