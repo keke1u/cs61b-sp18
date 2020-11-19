@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9ee7388-a152-478b-a294-557fbed7ca92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/CommonBugDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/CommonBugDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/EightPuzzleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/EightPuzzleSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/TestBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/TestBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/TestSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/TestSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/puzzle/WordPuzzleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/puzzle/WordPuzzleSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2setup/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2setup/DogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj2/out/production/proj2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kSA4JFsKpvQtCWc2nrhyqAAFq9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestBoard">
+    <configuration name="CommonBugDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.puzzle.CommonBugDetector" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EightPuzzleSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.puzzle.EightPuzzleSolver" />
+      <module name="hw4" />
+      <option name="PROGRAM_PARAMETERS" value="input/test01.in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPuzzleSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.puzzle.WordPuzzleSolver" />
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw4.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="hw4.puzzle.TestBoard" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSolver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw4.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="hw4.puzzle.TestSolver" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CommonBugDetector" />
+      <item itemvalue="Application.EightPuzzleSolver" />
+      <item itemvalue="Application.WordPuzzleSolver" />
+      <item itemvalue="JUnit.TestBoard" />
+      <item itemvalue="JUnit.TestSolver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBoard" />
+        <item itemvalue="Application.EightPuzzleSolver" />
+        <item itemvalue="Application.WordPuzzleSolver" />
+        <item itemvalue="JUnit.TestSolver" />
+        <item itemvalue="Application.CommonBugDetector" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9ee7388-a152-478b-a294-557fbed7ca92" name="Default Changelist" comment="" />
+      <created>1605683426624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605683426624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="76" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605782338593">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="76" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782338593" />
+    <state x="201" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605782421920">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="201" y="320" key="#com.intellij.fileTypes.FileTypeChooser/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782421920" />
+    <state x="399" y="249" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605782260280">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="399" y="249" key="#com.intellij.ide.macro.MacrosDialog/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782260280" />
+    <state width="918" height="302" key="GridCell.Tab.0.bottom" timestamp="1605782402194">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605693538763" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/237.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1605703557412" />
+    <state width="918" height="302" key="GridCell.Tab.0.bottom/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782402194" />
+    <state width="918" height="302" key="GridCell.Tab.0.center" timestamp="1605782402193">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605693538762" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/237.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1605703557411" />
+    <state width="918" height="302" key="GridCell.Tab.0.center/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782402193" />
+    <state width="918" height="302" key="GridCell.Tab.0.left" timestamp="1605782402192">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605693538762" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/237.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1605703557410" />
+    <state width="918" height="302" key="GridCell.Tab.0.left/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782402192" />
+    <state width="918" height="302" key="GridCell.Tab.0.right" timestamp="1605782402193">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605693538763" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/237.1103.1440.801/0.23.1920.1057@0.23.1920.1057" timestamp="1605703557411" />
+    <state width="918" height="302" key="GridCell.Tab.0.right/237.1103.1440.877/0.23.1920.977@0.23.1920.977" timestamp="1605782402193" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1605692681361">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605692681361" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1605683790963" />
+  </component>
+</project>

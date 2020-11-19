@@ -1,6 +1,7 @@
 package hw4.puzzle;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
@@ -67,8 +68,19 @@ public class CommonBugDetector {
         public int hashCode() {
             return Objects.hash(name);
         }
+
+
     }
 
+    public static int iterableCount(Iterable<WorldState> i) {
+        int count = 0;
+        Iterator<WorldState> iter = i.iterator();
+        while (iter.hasNext()) {
+            iter.next();
+            count += 1;
+        }
+        return count;
+    }
 
     public static void main(String[] args) {
         CommonBugPuzzleState cbps = new CommonBugPuzzleState();
@@ -79,8 +91,9 @@ public class CommonBugDetector {
 
         AlphabetEasyPuzzle aep = new AlphabetEasyPuzzle('a');
         Solver s3 = new Solver(aep);
-        System.out.println("TODO: Print out the number of total things ever"
-                           + " enqueued in your MinPQ and compare to the comments.");
+        int count = iterableCount(s3.solution());
+        System.out.println("Print out the number of total things ever"
+                           + " enqueued in your MinPQ and compare to the comments." + count);
         // if you print out the total number of items enqueued by s3
         // it should be approximately 25, not approximately 50.
     }
